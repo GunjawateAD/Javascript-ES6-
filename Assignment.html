@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>Assignment</title>
+    <link rel="stylesheet" href="Assignment.css">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Poppins: wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"> -->
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font- awesome/4.7.0/css/font-awesome.min.css"> -->
+    <script src="https://kit.fontawesome.com/8f7aec7d7a.js"></script>
+</head>
+<body>
+     
+    <body>        
+        <!-- <div class="container">
+            <div class="topnav">
+                <a class="active" href="#home">Food App(Capstone)</a>
+                <div class="search">
+                    Your Cart
+                </div>   
+            </div>
+        </div>  -->
+        <div class="header">
+            <p class="logo">Food App(Capstone)</p>
+            <div class="cart"><i class="fa-solid fa-cart-shopping"></i><p id="count">0</p></div>
+        </div>
+
+        <div class="box">
+                <h2>Good Food,Great Time</h2>
+                <p>Our chefs at WIWI make delicious food selections every week -you pick, we cook and deliver. </p>
+        </div>
+
+        <div class="box2">
+            <table>
+                <tr>
+                    <td><h2>Loaded Veggie</h2></td>
+                    <td><h2>Amount</h2></td>
+                    <td><input type="number" id="quantity" name="quantity" ></td>
+                </tr>
+                <tr>
+                    <td>
+                        Sweet potatoes, brown rice, pinto beans, green chilli queso,chipotie mayo,corn pepper blend
+                    </td>
+                    <td><button onclick="addtocart()">+Add</button></td>
+                </tr>
+                <tr> 
+                     <td><h5 id="total">$22.99</h5><button>+toppings</button></td>
+                </tr>
+
+                <tr>
+                    <td><h2>Hummus Falafel</h2></td>
+                    <td><h2>Amount</h2></td>
+                    <td><input type="number" id="quantity" name="quantity" ></td>
+                </tr>
+                <tr>
+                    <td>
+                        Falafel, cucumber salasa,spicy chimchurri, go-go sause, roasted red pepper hummus, red onions, feta, pita chips
+                    </td>
+                    <td><button>+Add</button></td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="number" id="quantity" name="quantity" >&nbsp;&nbsp;
+                        <button>+toppings</button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><h2>Feta Falafel</h2></td>
+                    <td><h2>Amount</h2></td>
+                    <td><input type="number" id="quantity" name="quantity" ></td>
+                </tr>
+                <tr>
+                    <td>
+                        Falafel, green goddness dressing, lemon garlic vinaigrette, cucumber salsa, pickled red onion, tangry herb aioli, feta
+                    </td>
+                    <td><button>+Add</button></td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="number" id="quantity" name="quantity" >&nbsp;&nbsp;
+                        <button>+toppings</button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><h2>Double Bagel</h2></td>
+                    <td><h2>Amount</h2></td>
+                    <td><input type="number" id="quantity" name="quantity" ></td>
+                </tr>
+                <tr>
+                    <td>
+                        Double bagel, cheese, mustard sauce with broccoli and mashed potatos sides
+                    </td>
+                    <td><button>+Add</button></td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="number" id="quantity" name="quantity" >&nbsp;&nbsp;
+                        <button>+toppings</button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <script src="Assignment.js"></script>
+</body>
+</html>

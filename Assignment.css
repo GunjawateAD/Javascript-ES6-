@@ -1,0 +1,106 @@
+
+/* For Header */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins',sans-serif;
+  font-size: 18px;
+}
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-image:url('abc.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header{
+  height: 60px;
+  width: 100%;
+  background-color: lightskyblue;
+  border-radius: 3px;
+  margin: 30px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+}
+.header .logo{
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+}
+.cart{
+  display: flex;
+  background-color: white;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7px 10px;
+  border-radius: 50px;
+  width: 80px;
+}
+.cart p{
+  height: 22px;
+  width: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 22px;
+  background-color: lightskyblue;
+  color: white;
+}
+
+/* Add a black background color to the top navigation */
+/* .topnav {
+    background-color: lightskyblue;
+    overflow: hidden;
+
+  }
+  .cart{
+    text-align: right;
+  }
+  
+  /* Style the links inside the navigation bar */
+  /* .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+  } */ 
+
+  .box{
+    width: 600px;
+    height: 90px;
+    padding: 20px;
+    padding-bottom: 50px;
+    border-radius: 12px;
+    margin: 80px auto;
+    box-shadow: 0px 0px 10px 2px;
+    background-color: lightskyblue;
+    color: white;
+  }
+
+
+
+
+  .box2{
+        width: 800px;
+        height: 500px;
+        padding: 20px;
+        padding-bottom: 50px;
+        border-radius: 12px;
+        margin: 80px auto;
+        box-shadow: 0px 0px 10px 2px;
+        background-color: white;
+  }
+  /* .search{
+    text-align: right;
+    font-size: 30px;
+    padding: 20px;
+    text-align: top;
+    color: white;
+  } */
